@@ -1,0 +1,10 @@
+package com.vizuri.fhir;
+
+import org.hl7.fhir.dstu3.model.RiskAssessment;
+
+query getRiskAssessment( )
+  riskAssessment: RiskAssessment( )
+end
+
+
+

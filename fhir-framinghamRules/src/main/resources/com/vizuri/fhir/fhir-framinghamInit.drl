@@ -1,0 +1,32 @@
+package com.vizuri.fhir;
+import org.hl7.fhir.dstu3.model.RiskAssessment;
+import org.hl7.fhir.dstu3.model.Patient;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.ZoneId;
+import java.lang.Double;
+import org.hl7.fhir.dstu3.model.RiskAssessment;
+//add the imports for the conversion 
+
+
+
+rule "Init"
+salience 999
+when
+    p: Patient( )
+then
+    //Score 
+    System.out.println("check 155");
+    Points $points = new Points();
+    insert ($points);
+    $points.setPointTotal(0.0);
+    Age age = new Age();
+    insert (age);
+    //calc age
+    LocalDate birthdate = p.getBirthDate().toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+    LocalDate today = LocalDate.now();
+    Period period = Period.between(birthdate, today);
+    age.setAge(period.getYears());
+    
+end
+

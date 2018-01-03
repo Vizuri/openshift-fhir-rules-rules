@@ -1,0 +1,12 @@
+package com.vizuri.fhir;
+
+rule "Set Final Value"
+    salience -800
+    dialect "mvel"
+    when 
+        $points : Points(  )
+    then 
+        Final $final = new Final();
+        $final.setFinalValue($points.getPointTotal);
+        insert($final);
+end
