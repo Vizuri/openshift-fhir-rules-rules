@@ -4,7 +4,7 @@
 
 This project provides the BRMS Rules code in support of the Webinar "Business Rules in a Microservice Architecture".  
 
-You can view the Webinar at https://engage.vizuri.com/managing-business-rules-in-microservices-thank-you-0.
+You can view the Webinar at https://engage.vizuri.com/jboss/brms/openshift/how-to-use-openshift-and-jboss-brms-to-manage-business-rules-in-a-microservices-architecture.
 
 The source code for the the Microservices can be located at https://github.com/Vizuri/openshift-fhir-rules-microservices.
 
@@ -15,12 +15,11 @@ The HAPI FHIR (http://hapifhir.io/) implementation of the FHIR standard is utili
 Please contact us at https://www.vizuri.com/company/contact-us if you have any questions about this code or would like future information on OpenShift or BRMS.
 
 This project is Open Source, licensed under the Apache Software License 2.0.
-<BR>Copyright 2015 Vizuri, a business division of AEM Corporation
+<BR>Copyright 2018 Vizuri, a business division of AEM Corporation
 
 ## Architecture
 
-The code in this project utilizes the RedHat OpenShift Container Platform and the RedHat BRMS Rules Platform to demonstate how leverage 
-the benifits of a Rules Managemenbt platform in a Microservice Architecture.  
+The code in this project utilizes the RedHat OpenShift Container Platform and the RedHat BRMS Rules Platform to demonstrate how to leverage the benefits of a Rules Management platform in a Microservice Architecture.
 
 ### Setup
 
