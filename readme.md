@@ -4,7 +4,7 @@
 
 This project provides the BRMS Rules code in support of the Webinar "Business Rules in a Microservice Architecture".  
 
-You can view the Webinar at https://engage.vizuri.com/jboss/brms/openshift/how-to-use-openshift-and-jboss-brms-to-manage-business-rules-in-a-microservices-architecture.
+You can view the Webinar at http://bit.ly/2F1BhVF.
 
 The source code for the the Microservices can be located at https://github.com/Vizuri/openshift-fhir-rules-microservices.
 
